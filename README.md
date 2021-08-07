@@ -22,7 +22,8 @@ Contributions are welcomed, you are encouraged to:
 
 
 * ### Named Entity Recognition
-1. **Enhanced Meta-Learning for Cross-lingual Named Entity Recognition with Minimal Resources.** *Qianhui Wu, Zijia Lin, Guoxin Wang, Hui Chen, Börje F. Karlsson, Biqing Huang, Chin-Yew Lin.* ***AAAI 2020***. [[pdf](https://arxiv.org/pdf/1911.06161.pdf)]
+1.ok， **Enhanced Meta-Learning for Cross-lingual Named Entity Recognition with Minimal Resources.** *Qianhui Wu, Zijia Lin, Guoxin Wang, Hui Chen, Börje F. Karlsson, Biqing Huang, Chin-Yew Lin.* ***AAAI 2020***. [[pdf](https://arxiv.org/pdf/1911.06161.pdf)]
+构造任务的方式，在目标语言中找一个句子，通过mbert表示找到k个在源语言上最相似的句子，然后将这K个句子作为一个task。训练过程和测试过程类似都是这样构造句子，然后采用MAML的方式训练更新
 
 ### Dialog System
 1. **Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks.** *Yiping Song, Zequn Liu, Wei Bi, Rui Yan, Ming Zhang* ***ACL 2020***. [[pdf](https://arxiv.org/pdf/1910.14326.pdf)][[code](https://github.com/zequnl/CMAML)]
